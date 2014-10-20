@@ -8,7 +8,6 @@ define(['jquery'], function($){
     CommonUtils.prototype.getIndexModelFromCode = function(code, model){
         var result  ;
         var found = false;
-        debugger;
         for(var i =0; i< model.length && !found; i++){
             if(model[i][0] == code){
                 result = i;

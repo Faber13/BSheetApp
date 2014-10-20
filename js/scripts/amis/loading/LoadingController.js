@@ -59,7 +59,6 @@ define(["jquery", "balanceSheet/BalanceSheet", "dataLoader/DataLoader", "databas
         }
         var url;
 
-        debugger;
         if(!firstIstance) {
             firstIstance = true
             // Choice of DSD dependent on the product (if rice has been chosen)

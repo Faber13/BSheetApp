@@ -397,7 +397,6 @@ define(["jquery", "formulasAmis/support/SupportModel" ], function ($, SupportMod
     }
 
     TableDataModel.prototype.pushInUpdatedData = function(value){
-        debugger;
         var exist = false;
         if(updatedData.length >0) {
             for (var i = 0; i < updatedData.length && !exist; i++) {

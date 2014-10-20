@@ -57,7 +57,6 @@ define(['jquery'], function($){
 
     DataHandler.prototype.getInvolvedData = function(codes, data2, tableData2,cell){
 
-        debugger;
         var data = $.extend([],true,data2);
         var tableData = $.extend([],true,tableData2);
         var result = [];
